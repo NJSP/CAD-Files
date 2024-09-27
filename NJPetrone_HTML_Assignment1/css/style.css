@@ -1,0 +1,142 @@
+header {
+    background-color: black;
+}
+
+
+body {
+    color: beige;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: larger;
+}
+
+
+h1 {
+    color: beige;
+}
+
+
+h2 {
+    color: black;
+}
+
+
+section {
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    color: black;
+}
+
+
+table {
+    box-sizing: border-box;
+    width: auto;
+    background-color: black;
+    color: beige;
+}
+
+th {
+    width: 80vw;
+}
+
+.gamejamtable {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+
+.gamepage {
+    background-color: beige;
+    align-items: center;
+    text-align: left;
+}
+
+
+.game {
+    display: grid;
+    grid-template-columns: 2;
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    padding: vw;
+    border: solid black;
+    color: black;
+    margin: 1vw;
+    align-items: center;
+}
+
+.one {
+    grid-column: 1;
+}
+
+.two {
+    grid-column: 2;
+}
+
+
+nav {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    border: 1em;
+    font-size: x-large;
+}
+
+
+div {
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 80vw;
+    padding: 2em;
+    border: 2px solid beige;
+    margin: auto;
+    margin-top: 5em;
+}
+.form {
+    border-radius: 25px;
+    border: 2px solid beige;
+    padding: 2em;
+}
+
+
+div.form li {
+    padding: .5em;
+}
+
+
+input[type=text], input[type=textarea]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=file], input[type=date] {
+    display: block;
+}
+  
+
+input[type=submit] {
+    width: 10%;
+    background-color: #f5f5dc;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #ebebdb;
+}
